@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    font-family: 'Roboto Slab', serif;
+}
+
+.section-title {
+    @apply uppercase font-semibold text-lg tracking-wide print:text-sm;
+}
+
+.theme-underline {
+    @apply hover:underline decoration-theme-yellow decoration-2;
+}
